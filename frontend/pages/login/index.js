@@ -23,7 +23,7 @@ export default function LoginSignup() {
 
     try {
       const response = await fetch(
-        "https://book-bytes-kelompok10.vercel.app/employee/login",
+        "http://localhost:8000/employee/login",
         {
           method: "POST",
           headers: {

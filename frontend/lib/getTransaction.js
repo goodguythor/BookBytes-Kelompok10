@@ -1,6 +1,6 @@
 import next from "next";
 
-const API_URL = "https://book-bytes-kelompok10.vercel.app";
+const API_URL = "http://localhost:8000";
 
 export const fetchTransactions = async () => {
   try {
